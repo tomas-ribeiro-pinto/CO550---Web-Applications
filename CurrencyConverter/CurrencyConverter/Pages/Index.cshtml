@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Currency Converter";
+}
+
+<div class="text-center jumbotron">
+    <h1 class="display-4">Currency Converter</h1>
+</div>
+
+<div class="container col-md-6 align-self-center text-center">
+    <h2>Convert from Pounds to Euros</h2>
+    <p>Convertion rate: 1 GBP = 1.14 EUR</p>
+    <br />
+    <form method="post">
+        <p>Insert how much you want to convert:</p>
+        <p>
+            <input min="0" step="0.01" asp-for="@Model.Amount" type="number" required /> GBP
+            <button class="btn btn-primary">Convert</button>
+        </p>
+    </form>
+    <p>
+        @ViewData["Message"]
+    </p>
+</div>
+
+
