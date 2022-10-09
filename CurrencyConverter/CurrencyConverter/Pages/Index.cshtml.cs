@@ -9,6 +9,10 @@ public class IndexModel : PageModel
 
     [BindProperty]
     public string Amount { get; set; }
+    [BindProperty]
+    public string Name { get; set; }
+    [BindProperty]
+    public string Email { get; set; }
     private const double RATE = 1.14;
 
     public IndexModel(ILogger<IndexModel> logger)
@@ -24,8 +28,16 @@ public class IndexModel : PageModel
     public void OnPost()
     {
         double result;
-        result = Convert.ToDouble(Amount) * RATE;
-        ViewData["Message"] = $"{Amount} GBP is {result.ToString("0.00")} EUR";
+
+        // Display Result in case the user has clicked the Convert button
+        if (!String.IsNullOrEmpty(Amount))
+        {
+            result = Convert.ToDouble(Amount) * RATE;
+            ViewData["Message"] = $"{Amount} GBP is {result.ToString("0.00")} EUR";
+        }
+        // Display message in case the user has clicked the Post button
+        if (!String.IsNullOrEmpty(Name))
+            ViewData["Hello"] = $"Hello {Name}! Your email adress is {Email}";
     }
 }
 

@@ -7,10 +7,10 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CurrencyConverter/Pages/Index.cshtml.cs">
     <Files>
-      <File FileName="CurrencyConverter/Pages/Index.cshtml" Line="19" Column="61" />
+      <File FileName="CurrencyConverter/Pages/Index.cshtml" Line="19" Column="29" />
       <File FileName="CurrencyConverter/Pages/Error.cshtml" Line="1" Column="1" />
       <File FileName="CurrencyConverter/Pages/Shared/_Layout.cshtml" Line="16" Column="11" />
-      <File FileName="CurrencyConverter/Pages/Index.cshtml.cs" Line="28" Column="78" />
+      <File FileName="CurrencyConverter/Pages/Index.cshtml.cs" Line="27" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
