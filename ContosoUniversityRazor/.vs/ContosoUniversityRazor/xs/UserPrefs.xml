@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{07CA54F9-04AE-4D08-BD05-00B7250D76F7}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ContosoUniversityRazor PreferredExecutionTarget="/Applications/Opera.app" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.B2A70317-CA63-4469-9E9E-409148B682ED" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoUniversityRazor/Pages/Students/Edit.cshtml.cs">
+    <Files>
+      <File FileName="ContosoUniversityRazor/Program.cs" Line="34" Column="5" IsPinned="True" />
+      <File FileName="ContosoUniversityRazor/Pages/Shared/_Layout.cshtml" />
+      <File FileName="ContosoUniversityRazor/Pages/Index.cshtml" />
+      <File FileName="ContosoUniversityRazor/Models/Student.cs" />
+      <File FileName="ContosoUniversityRazor/Models/Enrollment.cs" />
+      <File FileName="ContosoUniversityRazor/Models/Course.cs" />
+      <File FileName="ContosoUniversityRazor/Data/SchoolContext.cs" Line="24" Column="2" />
+      <File FileName="ContosoUniversityRazor/appsettings.json" />
+      <File FileName="ContosoUniversityRazor/Data/DbInitializer.cs" Line="7" Column="16" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Create.cshtml.cs" Line="39" Column="30" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Delete.cshtml.cs" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Edit.cshtml.cs" Line="74" Column="36" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Index.cshtml.cs" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Details.cshtml.cs" Line="31" Column="42" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Create.cshtml" Line="1" Column="1" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Details.cshtml" Line="1" Column="1" />
+      <File FileName="ContosoUniversityRazor/Pages/Students/Edit.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContosoUniversityRazor" expanded="True">
+            <Node name="ContosoUniversityRazor" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Students" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Delete.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True">
+                    <Node name="Edit.cshtml.cs" selected="True" />
+                  </Node>
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
