@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{E8C655AD-48F7-416D-8541-1C84AC2AAA0E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ContosoUniversityRazor PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/About.cshtml.cs">
+    <Files>
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="23" Column="87" />
+      <File FileName="Pages/Index.cshtml" />
+      <File FileName="Pages/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Data/DbInitializer.cs" />
+      <File FileName="Data/SchoolContext.cs" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Pages/Students/Index.cshtml" Line="84" Column="41" />
+      <File FileName="Pages/Students/Details.cshtml" />
+      <File FileName="Pages/Students/Details.cshtml.cs" />
+      <File FileName="Pages/Students/Create.cshtml.cs" />
+      <File FileName="Pages/Students/Edit.cshtml" />
+      <File FileName="Pages/Students/Edit.cshtml.cs" />
+      <File FileName="Pages/Students/Delete.cshtml.cs" />
+      <File FileName="Pages/Students/Delete.cshtml" />
+      <File FileName="Pages/Students/Index.cshtml.cs" Line="1" Column="1" />
+      <File FileName="PaginatedList.cs" Line="36" Column="2" />
+      <File FileName="Models/SchoolViewModels/EnrollmentDateGroup.cs" Line="10" Column="1" />
+      <File FileName="Pages/Students/About.cshtml" Line="2" Column="47" />
+      <File FileName="Pages/Students/About.cshtml.cs" Line="28" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContosoUniversityRazor" expanded="True">
+            <Node name="ContosoUniversityRazor" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="SchoolViewModels" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Students" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Delete.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+                <Node name="About.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

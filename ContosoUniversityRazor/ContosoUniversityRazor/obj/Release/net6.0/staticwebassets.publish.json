@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M10/QicF7N6Jai+eToPPCJAnsxsd++JdhQrzENCI/ao=",
+  "Hash": "+pAs5iyMgGICRZta7usoIupEuICbU9zL+8gXSknFvnc=",
   "Source": "ContosoUniversityRazor",
   "BasePath": "_content/ContosoUniversityRazor",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\linux-x64\\scopedcss\\bundle\\ContosoUniversityRazor.styles.css",
+      "Identity": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\scopedcss\\bundle\\ContosoUniversityRazor.styles.css",
       "SourceId": "ContosoUniversityRazor",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\linux-x64\\scopedcss\\bundle\\",
+      "ContentRoot": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ContosoUniversityRazor",
       "RelativePath": "ContosoUniversityRazor.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\linux-x64\\scopedcss\\bundle\\ContosoUniversityRazor.styles.css"
+      "OriginalItemSpec": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\scopedcss\\bundle\\ContosoUniversityRazor.styles.css"
     },
     {
-      "Identity": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\linux-x64\\scopedcss\\projectbundle\\ContosoUniversityRazor.bundle.scp.css",
+      "Identity": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ContosoUniversityRazor.bundle.scp.css",
       "SourceId": "ContosoUniversityRazor",
       "SourceType": "Computed",
-      "ContentRoot": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\linux-x64\\scopedcss\\projectbundle\\",
+      "ContentRoot": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ContosoUniversityRazor",
       "RelativePath": "ContosoUniversityRazor.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\linux-x64\\scopedcss\\projectbundle\\ContosoUniversityRazor.bundle.scp.css"
+      "OriginalItemSpec": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\ContosoUniversityRazor.bundle.scp.css"
     },
     {
       "Identity": "Z:\\Documents\\GitHub\\CO550---Web-Applications\\ContosoUniversityRazor\\ContosoUniversityRazor\\wwwroot\\css\\site.css",
