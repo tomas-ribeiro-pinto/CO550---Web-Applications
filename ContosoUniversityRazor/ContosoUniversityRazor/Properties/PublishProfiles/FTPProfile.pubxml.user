@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsBYBd+X83k661PqzT+85+AAAAAACAAAAAAAQZgAAAAEAACAAAADecKxkFZHDJDuxg7oEuy/SQWFU9liQFvDaP2FjJ9vBdgAAAAAOgAAAAAIAACAAAAAQ51G7+sBFvnWZlDZEWr5zk83kqtHY9Oj5GYJEhvIAgyAAAAD3A1qL7T8QRnlp2wyEh+YyH4XRiUIDfmQNh2jVKLlFokAAAAAxFAfKxDPYfE35rf3bkG6XVy6BAqDKmXyYLK63TJkDxIPTk8wg9cHyKC/l7hSsNSITIckZq9RwLsVp0Kf4B7wb</EncryptedPassword>
+    <_PublishTargetUrl>ftps://ftp.epinto.co.uk:21/epinto.co.uk</_PublishTargetUrl>
+    <History>False|2022-11-17T17:37:17.6302884Z;False|2022-11-17T17:28:31.3181353+00:00;False|2022-11-17T17:24:01.5623554+00:00;False|2022-11-17T17:21:18.8239800+00:00;False|2022-11-17T17:18:59.7898518+00:00;False|2022-11-17T17:15:55.7906616+00:00;False|2022-11-17T17:12:52.2405323+00:00;False|2022-11-17T17:09:47.9917848+00:00;False|2022-11-17T17:07:59.7496142+00:00;False|2022-11-17T17:06:50.1470638+00:00;False|2022-11-17T17:02:33.7879950+00:00;</History>
+  </PropertyGroup>
+</Project>
