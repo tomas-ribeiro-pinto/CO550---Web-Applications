@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{1B152ADD-8F77-4B1E-950B-BD4D2F9FD4CE}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ContosoUniversityMVC/Program.cs">
+    <Files>
+      <File FileName="ContosoUniversityMVC/Startup.cs" />
+      <File FileName="ContosoUniversityMVC/Program.cs" Line="4" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ContosoUniversityMVC" expanded="True">
+            <Node name="ContosoUniversityMVC" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ContosoUniversityMVC PreferredExecutionTarget="/Applications/Opera.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
