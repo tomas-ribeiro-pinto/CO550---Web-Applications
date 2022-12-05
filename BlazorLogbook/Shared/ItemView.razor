@@ -1,0 +1,51 @@
+﻿@if (Item.Quantity > 0)
+    {
+        <tr>
+            <td>@Item.Product.Name</td>
+            <td class="text-center">@Item.Quantity</td>
+            <td class="text-center">@Item.PurchasePrice.ToString("c")</td>
+            <td class="text-center">@Cost().ToString("c")</td>
+            <td>
+                <button @onclick="IncreaseQuantity" style="background-color:black" class="btn btn-dark" title="Increase"><i class="bi bi-plus-square"></i></button>
+                <button @onclick="DecreaseQuantity" style="background-color:black" class="btn btn-dark" title="Decrease"><i class="bi bi-dash-square"></i></button>
+                <button @onclick="RemoveItem" style="background-color:red" class="btn btn-danger" title="Remove"><i class="bi bi-x-square-fill"></i></button>
+            </td>
+        </tr>
+    }
+
+@code {
+
+    [Parameter]
+    public ShoppingItem Item { get; set; }
+
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnQuantityChanged { get; set; }
+
+    private async Task IncreaseQuantity()
+    {
+        Item.Quantity++;
+
+        await OnQuantityChanged.InvokeAsync();
+    }
+    private async Task DecreaseQuantity()
+    {
+        if (Item.Quantity > 1)
+        {
+            Item.Quantity--;
+            await OnQuantityChanged.InvokeAsync();
+        }
+    }
+
+    private async Task RemoveItem()
+    {
+        Item.Quantity = 0;
+        CartService.SelectedItems.Remove(Item);
+        await OnQuantityChanged.InvokeAsync();
+    }
+
+    private Decimal Cost()
+    {
+        return Item.Quantity * Item.PurchasePrice;
+    }
+}
+

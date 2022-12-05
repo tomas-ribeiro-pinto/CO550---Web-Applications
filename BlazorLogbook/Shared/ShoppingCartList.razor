@@ -1,0 +1,53 @@
+﻿<h3>Shopping Cart List</h3>
+
+@if (@CartService.SelectedItems.Count == 0)
+{
+    <h4>You don't have any smartphones in your cart.</h4>
+    <h4>Start Shopping now!</h4>
+}
+else
+{
+    <h4>You have @CartService.SelectedItems.Count smartphones in your cart!</h4>
+
+    <div class="col-6">
+        <table class="table table-bordered">
+            <tr>
+                <th>Name</th>
+                <th class="text-center">Quantity</th>
+                <th class="text-center">Unit Price</th>
+                <th class="text-center">Price</th>
+            </tr>
+            @foreach (ShoppingItem item in Items)
+            {
+                <ItemView Item="@item" OnQuantityChanged="OnQuantityChanged"></ItemView>
+            }
+            <tr>
+                <th></th>
+                <th></th>
+                <th class="text-center">Total</th>
+                <th class="text-center">@totalPrice.ToString("c")</th>
+            </tr>
+        </table>
+    </div>
+}
+
+@**Code Section*@
+@code {
+
+    [EditorRequired]
+    [Parameter]
+    public List<ShoppingItem> Items { get; set; } = CartService.SelectedItems.ToList();
+
+    private decimal totalPrice { get; set; }
+
+    protected override void OnInitialized()
+    {
+        OnQuantityChanged();
+    }
+
+    public void OnQuantityChanged()
+    {
+        totalPrice = @Items.Sum(item => item.PurchasePrice * item.Quantity);
+    }
+}
+

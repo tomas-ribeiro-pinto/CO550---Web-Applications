@@ -1,0 +1,9 @@
+﻿<h4>@Product.Id: @Product.Name</h4>
+<p>@Product.Description</p>
+<blockquote class="card-text"><strong>£@Product.Price</strong></blockquote>
+
+@code {
+    [Parameter]
+    public Product Product { get; set; }
+}
+

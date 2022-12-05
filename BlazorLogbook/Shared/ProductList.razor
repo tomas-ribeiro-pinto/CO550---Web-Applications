@@ -1,0 +1,32 @@
+﻿<h3>Product List</h3>
+
+@foreach (Product product in Products)
+    {
+        @inject CartService CartService
+        <div class="card w-50 mt-2">
+            <div class="card-header">
+                Blazor iPhones
+            </div>
+            <div class="card-body">
+                <ProductView Product="product"></ProductView>
+                <button href="#" class="btn btn-info" type="button"
+                        @onclick="()=> Buy(product.Id)">
+                    Buy
+                </button>
+            </div>
+        </div>
+    }
+
+@**Code Section*@
+@code {
+
+    [EditorRequired]
+    [Parameter]
+    public List<Product> Products { get; set; } = ProductService.Products.ToList();
+
+    private void Buy(int productId)
+    {
+        CartService.AddProductToCart(productId);
+    }
+}
+

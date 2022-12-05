@@ -1,0 +1,80 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorLogbook
+build_property.RootNamespace = BlazorLogbook
+build_property.ProjectDir = /Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Pages/CartView.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FydFZpZXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/ItemView.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0l0ZW1WaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/ProductList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Byb2R1Y3RMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/ProductView.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Byb2R1Y3RWaWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/ShoppingCartList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1Nob3BwaW5nQ2FydExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ja0kfoj48j
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ssy3r1mk3i
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tomaspinto/Documents/GitHub/CO550---Web-Applications/BlazorLogbook/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
