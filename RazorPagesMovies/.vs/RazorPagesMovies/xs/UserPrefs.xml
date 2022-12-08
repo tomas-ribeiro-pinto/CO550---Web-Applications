@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{71EB4710-3F7F-4818-A958-6DDE864D0864}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovies/Pages/Movies/Index.cshtml">
     <Files>
-      <File FileName="RazorPagesMovies/Pages/Index.cshtml" Line="8" Column="58" />
-      <File FileName="RazorPagesMovies/Pages/Shared/_Layout.cshtml" Line="41" Column="60" />
+      <File FileName="RazorPagesMovies/Pages/Index.cshtml" />
+      <File FileName="RazorPagesMovies/Pages/Shared/_Layout.cshtml" />
       <File FileName="RazorPagesMovies/Data/RazorPagesMovieContext.cs" />
       <File FileName="RazorPagesMovies/Models/Movie.cs" />
-      <File FileName="RazorPagesMovies/Pages/Movies/Create.cshtml" Line="1" Column="1" />
+      <File FileName="RazorPagesMovies/Pages/Movies/Create.cshtml" />
       <File FileName="RazorPagesMovies/Pages/Movies/Index.cshtml" Line="11" Column="32" />
     </Files>
     <Pads>
@@ -27,10 +30,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.RazorPagesMovies PreferredExecutionTarget="/Applications/Opera.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
